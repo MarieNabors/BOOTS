@@ -1,8 +1,8 @@
 var mysql = require('mysql')
 var connection = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
+  host: iwqrvsv8e5fz4uni.cbetxkdyhwsb.us-east-1.rds.amazonaws.com,
+  user: q148vjr9uxbbomyo,
+  password: mcubyi2fskglaz1z,
   bootcamp: process.env.DB_BOOTCAMP,
   database : process.env.DB_NAME,
   socketPath: '/tmp/mysql.sock'
