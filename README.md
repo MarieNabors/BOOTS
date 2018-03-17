@@ -1,2 +1,2 @@
-# BOOTS
-Resources for Coding Bootcamp Students
+# Help_Me_Help_You
+This is our read me.
