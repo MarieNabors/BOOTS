@@ -1,23 +1,6 @@
-<<<<<<< HEAD
- {{> header }}
-<div class="container">
-  <h1>{{title}}</h1>
-  
-  {{#if errors}}
-    {{#each errors}}
-      <div class="alert alert-danger">
-        {{this.msg}}
-      </div>
-    {{/each}}
-  {{/if}}
  <div class="container">
-=======
-{{> header }}
-
-<div class="container">
->>>>>>> 1a9e786984866bc4e263b0266530fc2a9ee8e6f0
   <h2>Login</h2>
-    <form method="POST" action="/login">
+      <form method="POST" action="/login">
     <div class="form-group">
       <label for="username">Username</label>
       <input type="text" name="username" class="form-control" placeholder="Username must be between 4-15 characters ">
@@ -31,4 +14,3 @@
     <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
-{{footer-end}}
